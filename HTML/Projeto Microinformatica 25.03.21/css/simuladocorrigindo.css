@@ -1,0 +1,69 @@
+#cabecalho{
+
+    height: 70vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/oceano.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+#emp{
+
+    height: 35vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/pordosol.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+
+}
+
+#conhecaEmp .container{
+    height: 45vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 60vw;
+}
+
+#emp .container{
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#cabecalho h1{
+    font-size: 3.5em;
+}
+
+a{
+    border-radius: 0 !important;
+}
+
+.btn-outline-primary{
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary{
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+.btn-m{
+
+    width: 10em;
+}

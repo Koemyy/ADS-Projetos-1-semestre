@@ -1,0 +1,11 @@
+.jumbotron{
+
+    background-color: rgb(34, 34, 90);
+    color: #fff
+    
+}
+
+.sombra{
+
+    box-shadow: 5px 5px 7px #000;
+}

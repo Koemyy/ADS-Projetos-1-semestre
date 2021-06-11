@@ -1,0 +1,70 @@
+.dobra-1{
+
+
+    height: 80vh;
+    background-image: url('../img/photo-1480796927426-f609979314bd.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dobra-1 p{
+
+color: #fff;
+width: 80vw;
+margin: 0 auto;
+margin-bottom: 1em;
+}
+
+.dobra-1 button{
+
+    width: 30vw;
+    height: 10vh;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+    background-color: rgba(86, 168, 235, 0.534);
+    border: 1px solid white;
+    color: #fff;
+    box-shadow: 3px 3px 3px black;
+}
+
+/********ARRUMAR********/
+
+#fig1, #fig2, #fig3, #fig4, #fig5, #fig6, #fig7, #fig8 {
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ border-radius: 5%;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.678);
+}
+
+#fig1, #fig6, #fig7,#fig4{
+    background-image: url('../img/ramen.png');
+}
+
+#fig2, #fig3, #fig5, #fig8{
+    background-image: url('../img/sushi-colored.png');
+}
+
+.bg-fig{
+
+color: rgba(255, 255, 255, 0);
+}
+.bg-fig:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(187, 49, 49, 0.377);
+    transition: 1s;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px rgba(233, 16, 16, 0.678);
+}
+
+.bg-dark-dio{
+    background-color: black;
+}
