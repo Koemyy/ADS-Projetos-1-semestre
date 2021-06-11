@@ -1,0 +1,33 @@
+.dobra-1{
+
+    height: 80vh;
+    background-image: url(https://picsum.photos/2000/1001);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.bg-white{
+
+    background-color: rgb(255, 255, 255);
+}
+.bg-black{
+    background-color: black;
+}
+
+.bg-grey{
+    background-color: rgb(212, 212, 212);
+}
+
+.alinhar{
+    align-items: center;
+}
+
+.jumbotron{
+    background-color: rgb(199, 197, 197);
+}
